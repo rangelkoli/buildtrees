@@ -21,8 +21,7 @@ function Donate(){
             name: 'sadasd',
             notes: 'Check this out!'
         };
-        
-        emailjs.send("service_9kqzdm","template_n3fyln9",);
+        emailjs.send("service_9kqzdm","template_n3fyln9", templateParams);
     }
     function orderNumber() {
         let now = Date.now().toString() // '1492341545873'
